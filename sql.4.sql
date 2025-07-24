@@ -1,4 +1,4 @@
--- Customer Purchase Value 
+-- Customer Purchase Volume 
 
 select 
 CustomerNameIndex, 
