@@ -1,3 +1,5 @@
+-- Gross profit margin for sales per month  
+
 SELECT ProductDescriptionIndex,
  MONTH(str_to_date(OrderDate, "%d-%b-%y")) as month , 
  ROUND(SUM(OrderQuantity* UnitPrice),2) as Total_sales, 
@@ -7,4 +9,3 @@ ROUND(SUM(OrderQuantity * UnitPrice) - SUM(UnitPrice),2)  as GrossProfit,
 from salesorders 
 group by ProductDescriptionIndex, month 
 order by month; 
--- Gross profit margin for sales per month  
