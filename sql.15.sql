@@ -1,3 +1,5 @@
+ -- Brief about delayed orders ; orders aking more than 5 days 
+
 SELECT 
   OrderNumber,
   CustomerNameIndex,
@@ -17,4 +19,3 @@ SELECT
     ) > 5 THEN 1 ELSE 0 
   END AS IsLate
 FROM salesorders;
--- delayed orders then true else false 
