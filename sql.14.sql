@@ -1,3 +1,5 @@
+-- Drop-Off rate percentage ; 0 as all orders shipped 
+
 SELECT 
   COUNT(DISTINCT OrderNumber) AS TotalPlacedOrders,
   COUNT(DISTINCT CASE 
@@ -13,4 +15,3 @@ SELECT
     2
   ) AS DropOffRatePercent
 FROM salesorders;
--- Returns 0 as all orders shipped 
