@@ -11,7 +11,7 @@ Power BI – Dashboard development and visualization
 DAX – For calculated metrics and custom measures in Power BI
 
  ## SQL Usage Highlights
-The retail_sales_queries.sql file includes mainly following domains- 
+The sales_queries.sql file includes mainly following domains- 
 
 -Joins across order, customer, product, and warehouse tables
 -Aggregate queries for total revenue, gross profit, unit price, AOV
