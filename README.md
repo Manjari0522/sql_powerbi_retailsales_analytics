@@ -1,4 +1,4 @@
-# Sql_Powerbi_retailsales_analytics
+# Sql_Powerbi_overallsales_analytics
 ## Project Overview 
 A comprehensive overall sales analytics project using SQL for data extraction and transformation, and Power BI for dynamic visualization.
 
